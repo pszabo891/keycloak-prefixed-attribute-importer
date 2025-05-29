@@ -1,0 +1,27 @@
+# Java & Maven
+target/
+*.class
+*.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Maven
+.mvn/
+.settings/
+
+# Others
+*.tmp
+*.bak
