@@ -2,6 +2,8 @@
 
 A custom Keycloak OIDC Identity Provider Mapper that allows you to import claims from an external OIDC identity provider and prefix the values before storing them as user attributes.
 
+![IdP Mapper form screenshot](./resources/idp-mapper-form.png)
+
 The extension is compatible with latest versions of Keycloak (tested on versions 26+).
 
 ## Build
@@ -27,7 +29,7 @@ target/prefixed-attribute-mapper-extension-1.0.0.jar
 
 1. **Copy the JAR**
 
-   Download the prebuilt JAR from the `releases` section or build it using the above instructions, then copy the JAR file to your Keycloak server's `providers` directory:
+   Download the prebuilt JAR from the [Releases](https://github.com/pszabo891/keycloak-prefixed-attribute-importer/releases) section or build it using the above instructions, then copy the JAR file to your Keycloak server's `providers` directory:
 
    ```
    cp target/prefixed-attribute-mapper-extension-1.0.0.jar /opt/keycloak/providers/
